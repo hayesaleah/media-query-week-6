@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media screen and (min-width: 720px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 1020px) {
+    h1 {
+        font-size: 28px;
+    }
+    
+}
