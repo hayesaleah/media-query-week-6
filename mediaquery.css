@@ -22,11 +22,21 @@ img {
 figure {
 	margin: 0;
 }
-
+    
 @media screen and (min-width: 720px) {
     h1 {
         font-size: 20px;
     }
+    body {
+        background-color: pink;
+        margin: 10px;
+    }
+    
+    #photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     
 }
 
@@ -34,5 +44,15 @@ figure {
     h1 {
         font-size: 28px;
     }
+    body {
+        background-color: yellow;
+        margin: 30px;
+        max-width: 500px;
+    }
     
-}
+    #photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    
